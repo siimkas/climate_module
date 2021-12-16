@@ -1,6 +1,6 @@
 # Climate Module
 
-This repository contains code for an ESP32-WROOM-32D. Code was written on Arduino IDE.
+This repository contains code for an ESP32-WROOM-32D and a .stl file for a prototype's case. Code was written on Arduino IDE.
 
 The project uses an ESP32 and a BME280 sensor to send temperateure and humidity data to a smartphone.
 

@@ -203,8 +203,8 @@ void loop() {
 //      digitalWrite(LED, LOW);
 //    }
   } else {
-    if(loopcounter == 15) {
-      esp_deep_sleep_start();
+    if(loopcounter == 30) {
+      esp_deep_sleep_start(); //hibernate after 30 seconds
       }
     loopcounter++; // counts how many loops it stays disconnected
     }
